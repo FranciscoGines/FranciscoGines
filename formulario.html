@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Let´s Coder / home</title>
+
+  <link rel="stylesheet" href="./style/main.css" />
+</head>
+
+<body class="fondo">
+
+  <header>
+
+    <div class="logo">
+      <img src="./img/letscoder-square.jpeg" alt="" />
+    </div>
+    <nav class="contenedor4">
+      <a href="home.html">Home</a>
+      <a href="conócenos.html">Conócenos</a>
+      <a href="tabla.html">Tabla</a>
+      <a href="Contacto.html">Contacto</a>
+    </nav>
+
+    <h1 class="title">Let´s Coder</h1>
+  </header>
+  <main>
+    <form action="">
+      <div class="conten">
+        <h1>Formulario Informacion Curso Avanzado <BR>HTML & CSS</BR></h1>
+        <div class="usuario">
+          <h3>Datos Personales</h3>
+          <label for="input_nombre">Nombre</label>
+          <input tipe="text" name="Nombre" id="input_nombre" placeholder="Escribe Aqui">
+
+          <label for="input_Apellidos">Apellidos</label>
+          <input tipe="text" name="Apellidos" id="input_Apellidos" placeholder="Escribe Aqui">
+
+          <label for="input_date">Fecha Nacimiento</label>
+          <input type="date" name="Fecha" id="input_Fecha Nacimiento">
+
+          <label for="telefone" class="colocar_telefono">Teléfono</label>
+          <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+        </div>
+
+        <div class="informacion_curso">
+          <h3>Informacion del curso</h3>
+          <h4>Modalidad del Curso</h4>
+          <label for="radio">Full-Time</label>
+          <input type="radio" name="radio" id="radio">
+          <label for="radio">Part-Time</label>
+          <input type="radio" name="radio" id="radio">
+          <h4>Turnos del Curso</h4>
+          <label for="input_check">Tarde</label>
+          <input type="checkbox" name="check" id="check">
+          <label for="input_check2">Mañana</label>
+          <input type="checkbox" name="check" id="check2">
+          <select name="select" id="select">
+            <option disabled selected>escoge...</option>
+            <option value="1">Presencial</option>
+            <option value="2">On-line</option>
+          </select>
+        </div>
+
+        <div class=" mensaje">
+          <label for="mensaje" class="colocar_mensaje">Mensaje
+
+          </label>
+          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+            placeholder="Deja aquí tu comentario..." cols="40" rows="10"></textarea>
+
+          <label for="input_email">Email</label>
+          <input type="email" name="email" id="input_email" required="obligatorio">
+          <input type="submit" value="send">
+
+          <input type="reset" value="clear">
+        </div>
+      </div>
+
+
+    </form>
+  </main>
+
+</body>
+
+</html>
